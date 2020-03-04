@@ -12,7 +12,7 @@
     "version-fix": "npm version patch",
     "version-feature": "npm version minor",
     "version-broken": "npm version major",
-    "deploy": "git commit -am 'fix' && npm version major && git push origin master --force --follow-tags --quiet"
+    "deploy": "npm version major && git push origin master --force --follow-tags --quiet"
   },
   "private": true,
   "dependencies": {
