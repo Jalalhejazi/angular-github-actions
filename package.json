@@ -1,6 +1,6 @@
 {
   "name": "angular-githubaction",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -12,7 +12,7 @@
     "version-fix": "npm version patch",
     "version-feature": "npm version minor",
     "version-broken": "npm version major",
-    "deploy":"npm run version-fix && git push origin master --force --follow-tags --quiet"
+    "deploy": "npm run version-fix && git push origin master --force --follow-tags --quiet"
   },
   "private": true,
   "dependencies": {
