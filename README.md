@@ -10,8 +10,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![](https://github.com/nabilnalakath/flutter-action/workflows/main.yml/badge.svg)
-[![pub package](https://img.shields.io/pub/v/badge.svg)](https://pub.dartlang.org/packages/badge)
+![Angular Build](https://github.com/Jalalhejazi/angular-github-actions/workflows/Angular%20Build/badge.svg)
 
 
 This is a sample angular project with CI-CD configuration using Github Actions.
