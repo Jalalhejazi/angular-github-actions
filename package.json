@@ -8,7 +8,11 @@
     "build:prod": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "version-fix": "npm version patch",
+    "version-feature": "npm version minor",
+    "version-broken": "npm version major",
+    "deploy":"npm run version-fix && git push origin master --force --follow-tags --quiet"
   },
   "private": true,
   "dependencies": {
